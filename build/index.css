@@ -11,6 +11,10 @@
   float: right;
 }
 
+h1{
+  padding-bottom: 20px;
+}
+
 /* Gallery Styles */
 .book {
   display: inline-block;
@@ -76,12 +80,20 @@
 }
 
 .book-title {
-  margin-top: 45px;
+  margin: 45px 20px;
+  font-weight: 600;
 }
 
 .book-info{
   text-align: left;
 }
+.book-info h3{
+  font-style: italic;
+}
+.book-info h4{
+  color: #999;
+}
+
 
 .book-cover{
   float: left;

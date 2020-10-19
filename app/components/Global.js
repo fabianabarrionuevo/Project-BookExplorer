@@ -42,7 +42,7 @@ class Global extends Component {
           <Switch>
             <Route path="/" exact>
             <div className="Global">
-                <h2>Book Explorer!</h2>
+                <h1>Book Explorer</h1>
                 <FormGroup>
                  <InputGroup className="search-book">
                    <FormControl type="text" placeholder="Search for a book"
